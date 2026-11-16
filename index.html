@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#a8221b">
+  <meta name="description" content="Leia o Minimanual de Insurgência Informacional (ou janonismo), de @YACOBVS e @DENGXIAOPIX.">
+  <title>Minimanual de Insurgência Informacional (ou janonismo)</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#manual">Ir para o conteúdo</a>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-introducao" viewBox="0 0 64 64"><path d="M12 14h25a13 13 0 0 1 13 13v23H25a13 13 0 0 0-13 0zM12 14v36m12-27h17M24 31h17M24 39h11"/></symbol>
+    <symbol id="icon-fatos" viewBox="0 0 64 64"><circle cx="32" cy="32" r="20"/><path d="M12 32h40M32 12c-10 10-10 30 0 40M32 12c10 10 10 30 0 40M16 21h32M16 43h32"/></symbol>
+    <symbol id="icon-caracteristicas" viewBox="0 0 64 64"><circle cx="32" cy="32" r="7"/><circle cx="32" cy="10" r="4"/><circle cx="51" cy="43" r="4"/><circle cx="13" cy="43" r="4"/><path d="M32 14v11m-6 10-9 5m21-5 9 5"/></symbol>
+    <symbol id="icon-1" viewBox="0 0 64 64"><path d="M12 38h9l22 10V16L21 26h-9zM21 38l4 14h8l-4-10M49 24l5-4m-5 12h7m-7 8 5 4"/></symbol>
+    <symbol id="icon-2" viewBox="0 0 64 64"><path d="M32 9 51 16v14c0 12-8 20-19 25C21 50 13 42 13 30V16zM22 22l20 20M42 22 22 42"/></symbol>
+    <symbol id="icon-3" viewBox="0 0 64 64"><path d="M7 32s10-15 25-15 25 15 25 15-10 15-25 15S7 32 7 32z"/><circle cx="32" cy="32" r="7"/><path d="M32 8v4M32 52v4"/></symbol>
+    <symbol id="icon-4" viewBox="0 0 64 64"><rect x="22" y="22" width="20" height="20" rx="2"/><path d="M32 8v14m0 20v14M8 32h14m20 0h14M14 14l10 10m16 16 10 10M50 14 40 24M24 40 14 50"/></symbol>
+    <symbol id="icon-5" viewBox="0 0 64 64"><circle cx="32" cy="24" r="11"/><path d="M13 54c1-11 8-17 19-17s18 6 19 17M28 24h.1m8 0h.1M28 29c3 2 5 2 8 0"/></symbol>
+    <symbol id="icon-6" viewBox="0 0 64 64"><circle cx="29" cy="32" r="20" stroke-dasharray="4 4"/><path d="m27 40 18-18m-10 0h10v10M12 12l5 5m35 30 4 4"/></symbol>
+    <symbol id="icon-7" viewBox="0 0 64 64"><rect x="16" y="16" width="32" height="32" rx="4"/><path d="M25 25h14v14H25zM24 8v8m8-8v8m8-8v8M24 48v8m8-8v8m8-8v8M8 24h8m-8 8h8m-8 8h8m32-16h8m-8 8h8m-8 8h8"/></symbol>
+    <symbol id="icon-8" viewBox="0 0 64 64"><path d="M32 8v48M12 16l13 16-13 16M52 16 39 32l13 16M17 32h8m14 0h8"/></symbol>
+    <symbol id="icon-9" viewBox="0 0 64 64"><path d="M12 15h40v34H12zM12 25h40M25 15v34m10-16 5 5 7-8"/></symbol>
+    <symbol id="icon-10" viewBox="0 0 64 64"><path d="m32 8 4 15 13-8-7 13 14 4-14 4 7 13-13-8-4 15-4-15-13 8 7-13-14-4 14-4-7-13 13 8z"/><circle cx="32" cy="32" r="5"/></symbol>
+    <symbol id="icon-11" viewBox="0 0 64 64"><path d="M11 18c13 0 16 28 29 28h13m-8-8 8 8-8 8M11 46c13 0 16-28 29-28h13m-8-8 8 8-8 8"/></symbol>
+    <symbol id="icon-12" viewBox="0 0 64 64"><path d="M11 52V18l21-9 21 9v34M7 52h50M22 52V32h20v20M32 32v20M20 21h.1m12-4h.1m12 4h.1"/></symbol>
+    <symbol id="icon-posfacio" viewBox="0 0 64 64"><path d="M14 12h36v40H14zM22 22h20M22 30h20M22 38h12M38 44l4 4 8-9"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Minimanual — voltar ao início">
+        <img src="favicon.png" alt="" width="44" height="44">
+        <span>MINI<span class="brand-accent">MANUAL</span><small>INSURGÊNCIA INFORMACIONAL</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <details class="nav-index">
+          <summary>Índice <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-index-panel" id="nav-index-panel">
+          <a href="#introducao">Introdução</a>
+          <a href="#fatos-basicos">Fatos Básicos</a>
+          <a href="#caracteristicas">Características do Janonismo</a>
+          <a href="#hypar">1) Hypar o Próprio Campo</a>
+          <a href="#nao-engajar">2) Jamais Engajar o Campo Adversário</a>
+          <a href="#vigilia">3) Vigília nas Redes</a>
+          <a href="#centralizacao">4) Centralização das Postagens</a>
+          <a href="#influencia">5) Influência do Rosto</a>
+          <a href="#fura-bolha">6) Conteúdo Fura-Bolha</a>
+          <a href="#producao-ia">7) Produção Massiva e Estética de IA</a>
+          <a href="#espelhamento">8) Espelhamento</a>
+          <a href="#signos">9) Apropriação e Desestabilização de Signos</a>
+          <a href="#hipersticao">10) Hiperstição Memética</a>
+          <a href="#anything-goes">11) Anything Goes</a>
+          <a href="#fora-das-redes">12) Mobilização Fora das Redes</a>
+          <a href="#posfacio">Posfácio</a>
+        </div>
+        </details>
+        <a class="nav-download" href="manual.pdf" download>Baixar PDF <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <svg class="hero-pattern" viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#f1e7d2" stroke-opacity=".1"/></pattern></defs><rect width="1440" height="760" fill="url(#grid)"/><circle cx="1120" cy="390" r="330" fill="none" stroke="#f1e7d2" stroke-opacity=".14"/><circle cx="1120" cy="390" r="270" fill="none" stroke="#f1e7d2" stroke-opacity=".12"/><path d="M0 640 1440 180M0 680 1440 220" fill="none" stroke="#181614" stroke-opacity=".14" stroke-width="2"/></svg>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> UM MANUAL PARA O NOSSO TEMPO</p>
+          <h1 id="hero-title">Minimanual de <em>Insurgência</em> Informacional <span>(ou janonismo)</span></h1>
+          <p class="hero-description">Comunicação, mobilização e disputa de sentidos na era das redes.</p>
+          <div class="hero-actions"><a class="button button-light" href="#manual">Começar a leitura <span aria-hidden="true">↗</span></a><a class="hero-pdf" href="manual.pdf" download>↓ &nbsp; Baixar o manual em PDF</a></div>
+          <p class="hero-authors">POR <strong>@YACOBVS</strong> &amp; <strong>@DENGXIAOPIX</strong></p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 440 440" role="presentation"><circle cx="220" cy="220" r="208" fill="none" stroke="#f4ead6" stroke-opacity=".5"/><circle cx="220" cy="220" r="190" fill="none" stroke="#f4ead6" stroke-opacity=".35" stroke-dasharray="3 8"/><defs><clipPath id="logo-clip"><circle cx="220" cy="220" r="170"/></clipPath></defs><image href="favicon.png" x="50" y="50" width="340" height="340" preserveAspectRatio="xMidYMid slice" clip-path="url(#logo-clip)"/><path d="M220 0v30M220 410v30M0 220h30M410 220h30" stroke="#f4ead6" stroke-width="2"/></svg>
+          <span class="art-caption">COMUNICAÇÃO É DISPUTA <span>✳</span> DISPUTA É MOVIMENTO</span>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>LEITURA LIVRE · CIRCULAÇÃO LIVRE</span><span>ROLE PARA EXPLORAR ↓</span></div>
+    </section>
+
+    <div class="reading-intro" id="manual">
+      <div><p class="section-kicker">O MANUAL / LEITURA COMPLETA</p><h2>Ideias em <em>movimento.</em></h2></div>
+      <p>Uma leitura sobre comunicação, mobilização e as dinâmicas das redes. Explore o índice ou siga pela página na ordem original.</p>
+    </div>
+    <div class="reading-layout">
+      <aside class="reading-sidebar" aria-label="Índice do manual">
+        <div class="sidebar-heading"><span>ÍNDICE</span><span>↘</span></div>
+        <nav id="sidebar-index" aria-label="Seções do manual">
+          <a href="#introducao">Introdução</a>
+          <a href="#fatos-basicos">Fatos Básicos</a>
+          <a href="#caracteristicas">Características do Janonismo</a>
+          <a href="#hypar">1) Hypar o Próprio Campo</a>
+          <a href="#nao-engajar">2) Jamais Engajar o Campo Adversário</a>
+          <a href="#vigilia">3) Vigília nas Redes</a>
+          <a href="#centralizacao">4) Centralização das Postagens</a>
+          <a href="#influencia">5) Influência do Rosto</a>
+          <a href="#fura-bolha">6) Conteúdo Fura-Bolha</a>
+          <a href="#producao-ia">7) Produção Massiva e Estética de IA</a>
+          <a href="#espelhamento">8) Espelhamento</a>
+          <a href="#signos">9) Apropriação e Desestabilização de Signos</a>
+          <a href="#hipersticao">10) Hiperstição Memética</a>
+          <a href="#anything-goes">11) Anything Goes</a>
+          <a href="#fora-das-redes">12) Mobilização Fora das Redes</a>
+          <a href="#posfacio">Posfácio</a>
+        </nav>
+        <a class="sidebar-download" href="manual.pdf" download>↓ &nbsp; Download do PDF</a>
+      </aside>
+      <div class="manual-content">
+        <section class="manual-section" id="introducao" aria-labelledby="introducao-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-introducao"></use></svg></div>
+          <div><p class="section-label">ABERTURA</p><h3 id="introducao-titulo">INTRODUÇÃO</h3>
+          <div class="section-body">
+            <p>Este minimanual nasce da experiência brasileira do Exército do Lula, movimento organizado segundo as concepções e a mobilização do deputado e estrategista André Janones, e de sua subdivisão independente, Comunicação Combate, criada para ampliar o alcance de suas missões nas eleições brasileiras de 2026.</p>
+            <p>Nosso objetivo é reunir, de maneira direta e pragmática, as táticas de comunicação e mobilização política adequadas a esse terreno.</p>
+            <p>As táticas aqui apresentadas nascem da experiência prática e da experimentação no próprio campo de batalha digital, tendo sido colocadas à prova na luta política concreta.</p>
+            <p>A máxima concisão é nosso princípio: cada conteúdo é reduzido ao essencial, privilegiando a consulta rápida e a aplicação direta.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="fatos-basicos" aria-labelledby="fatos-basicos-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-fatos"></use></svg></div>
+          <div><p class="section-label">CONTEXTO</p><h3 id="fatos-basicos-titulo">FATOS BÁSICOS</h3>
+          <div class="section-body">
+            <p>Política é um jogo permanente de forças, atuantes em diversos níveis, que confluem e/ou colidem na disputa por hegemonia na configuração das realidades habitadas.</p>
+            <p>As redes sociais são componentes fundamentais da configuração de realidades que as pessoas habitam hoje, constantemente conectadas por meio de seus aparelhos. Assim, as redes são um campo fundamental de disputa da realidade. As redes que habitamos são dominadas por plataformas digitais pertencentes a um pequeno grupo de grandes empresas norte-americanas com seus próprios interesses e prerrogativas supranacionais. Nossos modos de construir realidades estão submetidos a essas plataformas. Enquanto não é possível escapar de sua captura, pode-se usar sua própria lógica de funcionamento para impulsionar outros interesses. É o caminho que indicaremos.</p>
+            <p>Cada plataforma tem sua lógica própria, que é tanto algorítmica quanto mercadológica e vinculatória. As plataformas são máquinas em que algoritmos capturam pessoas em determinado tipo de transe do qual se extrai valor. Entender a lógica de uma plataforma é entender de que modo ela produz e modula realidades. Por um lado, isso é entender o tipo de comportamento que ela favorece espontaneamente; por outro, entender de que modo se pode intervir e mudar o curso desse processo.</p>
+            <p>Na última década, certas forças políticas conseguiram esse entendimento e o utilizaram para tomar de assalto as democracias liberais ao redor do planeta em conluio com o poder financeiro internacional. O que hoje se chama de extrema direita se alimenta do espontâneo das plataformas, de um transe permanente que excita os impulsos mais baixos do horror moral, do tribalismo, da vontade de destruir diferenças etc. O resultado é entropização acelerada de instituições e das mais básicas convenções da coexistência. A espontaneidade das redes favorece o declínio de toda (pouca) ordem civilizacional.</p>
+            <p>As antigas instituições republicanas não contam com recursos para conter essa onda, tornando-se reféns e cúmplices do novo regime de poder enquanto são progressivamente minadas em favor de regimes de características fascistas.</p>
+            <p>O janonismo propõe uma apropriação dos mesmos mecanismos das plataformas por outras forças. Em vez do que é espontaneamente favorecido pelas redes, treinar um número massivo de usuários que intervirão de forma coordenada para sequestrar a dinâmica algorítmica.</p>
+            <p>As redes sociais têm espaço e tempo limitados. Nem tudo que é postado circula, e o algoritmo seleciona os conteúdos segundo seu poder de engajamento espontâneo (quanto as pessoas reagirão àquilo, positiva ou negativamente). Uma investida massiva de usuários engajados consegue sequestrar o algoritmo segundo seus próprios critérios.</p>
+            <p>Com os conteúdos adequados e, sobretudo, com um enorme poderio informacional direcionado, é possível transbordar e explodir a dinâmica das bolhas e ocupar parcelas cada vez maiores da infosfera. A atividade favorecida pelo espontâneo das redes é substituída pela avalanche coordenada.</p>
+            <p>O sonho de um espaço público digital para deliberação mediante argumentos racionais acabou. Apenas uma força suficiente para produzir hegemonia na infosfera pode fazer frente aos processos políticos que predam a nossa pouca civilização.</p>
+            <p>É necessário mobilizar FORÇA BRUTA INFORMACIONAL.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="caracteristicas" aria-labelledby="caracteristicas-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-caracteristicas"></use></svg></div>
+          <div><p class="section-label">O MÉTODO</p><h3 id="caracteristicas-titulo">CARACTERÍSTICAS DO “JANONISMO”</h3>
+          <div class="section-body">
+            <p>O janonismo se baseia em uma estrutura de comunicação centralizada e altamente capilarizada. Um canal em aplicativo de mensagens popular (no Brasil, o WhatsApp, mas sendo possível também o Telegram) lança os comandos (as “missões”) que deverão reverberar entre todos os participantes (os “soldados”); a partir desses participantes, devem reverberar para todas as redes sociais possíveis em um curto intervalo de tempo (preferencialmente dentro de 1h) para produzir uma onda de relevância algorítmica. Os participantes também reverberam os comandos para canais ou grupos secundários nos próprios aplicativos de mensagem, além de direcioná-los para seus contatos. É preciso ocupar todos os espaços, forçar e romper as membranas das bolhas.</p>
+            <p>A ideia é colocar o máximo possível de pessoas nesse grupo central, de modo a ganhar a batalha informacional na força bruta, como na lógica de um ataque DDoS. É preciso ter canais alternativos, caso haja um ataque judicial que busque favorecer os adversários ou um ataque direto da própria plataforma em uso. A centralização é importante.</p>
+            <p>O objetivo em vista é expandir a infosfera favorável à causa defendida e absorver cada vez mais pessoas para a causa. Os adversários mais distantes e recrudescidos não serão convertidos. Desista disso. Busca-se fazer balançar indecisos, derrubar pessoas da situação de isenção, produzir contágio com o entusiasmo, a euforia e a avalanche informacional.</p>
+            <p>Os comandos expressam temas a serem divulgados, hashtags a serem subidas, imagens a serem compartilhadas, blitzkrieg de curtidas / compartilhamentos / salvamentos / encaminhamentos em publicações de interesse, termos de busca no Google a serem incentivados etc. Toda forma de dominar artificialmente os parâmetros e as métricas das plataformas vale.</p>
+            <p>Os comandos devem ser executados. O janonismo é uma estratégia de ação em um regime político sequestrado pelas plataformas, não um ideal de participação. Ele pede que o participante, sobretudo o esquerdista ou progressista, suspenda momentaneamente sua “consciência crítica” em favor da causa em questão. O participante da ação janonista não é o “sujeito autônomo” do Iluminismo, mas um nó de amplificação numa rede coordenada de comunicação que busca a hegemonia nas redes.</p>
+            <p>A pessoa que comanda o canal (no caso brasileiro, o próprio deputado André Janones) deve estar atenta para mobilizar os soldados, coordenar sua ação e alinhar seu funcionamento nas redes às diretrizes da ação. Deve usar de intimismo e constância, utilizando a própria voz e a própria imagem para gerar e mediar a vinculação entre os soldados. As missões devem ser claras, de modo que a militância seja gamificada e facilmente executável. É necessária uma confiança muito grande e uma eficácia já comprovada nas ações antes que se peça que os soldados encontrem soluções próprias. É desnecessário dizer que essa pessoa precisa entender do funcionamento de cada plataforma e fazer leituras do clima das redes a cada momento.</p>
+            <p>O conteúdo a circular não obedece necessariamente aos padrões estéticos ou intelectuais de um público universitário, mas é preciso fazê-lo circular. Por exemplo, comunistas e centristas social-democratas deverão se engajar mutuamente. O importante é produzir uma massa informacional da coalizão aliada. O janonismo é anti-low profile, antipedantismo intelectual e antissectarismo. A eficácia depende de se sujar. Uma regra geral é não engajar com conteúdo adversário em hipótese alguma. Engajamento é engajamento, e ele sinaliza para o algoritmo para que o conteúdo ganhe maior alcance. “Positivo” ou “negativo” não fazem sentido nesse nível: xingar ou elogiar, defender ou atacar alguém, debochar ou cair no ragebait, denunciar moralmente ou concordar veementemente, tanto faz. Mesmo assistir a um vídeo já é sinalizar interesse e aumentar sua relevância e seu potencial de circulação. No calor da guerra, a indicação é tentar zerar o engajamento com o adversário, esvaziar seu alcance. De preferência, bloquear os perfis.</p>
+            <p>É preciso quebrar o circuito por meio do qual pessoas que se entendem como progressistas, defensoras da democracia e das minorias etc. se engajam no empoderamento da extrema direita na infosfera. A coceirinha de manifestar escândalo moral ou apontar o ridículo do adversário para ganhar pontos (likes) entre os pares é exatamente o que as redes sociais convertem em alimento para esse mesmíssimo adversário, em feedback.</p>
+            <p>Essa dinâmica criou um mercado próspero de figuras especializadas em ragebaitar esquerdistas, que se tornam personalidades da extrema direita e conseguem mandatos. Isso é uma máquina de produzir bolsonaros.</p>
+            <p>Em vez de engajamento negativo (que é apenas mais engajamento), a tática janonista se baseia no princípio do espelhamento. A própria estrutura de organização espelha o que grupos de extrema direita têm desenvolvido nos últimos dez anos. O espelhamento consiste em mobilizar meios e conteúdos análogos, mas com sinal invertido, com maior engajamento e em favor de outras causas. Num espelhamento bem-sucedido, a imagem invertida produzida anula a força daquilo a que se opõe. Esse princípio se manifesta em diversas táticas possíveis nas redes sociais, indicadas em seguida. No caso brasileiro, a causa a favor da qual surgiu o janonismo é a defesa do que ainda resta da Nova República (fundada a partir de 1985, com o fim da Ditadura Militar) e a eleição do líder popular Luiz Inácio Lula da Silva, do Partido dos Trabalhadores, contra a ameaça iminente do movimento bolsonarista aliado às big techs e ao governo Donald Trump. Apropriar-se dos meios que vêm sendo utilizados para acelerar a entropização deletéria do tecido social pelos algoritmos (ambiente em que a extrema direita lucra política e economicamente), mas no sentido de avançar um projeto alinhado aos melhores interesses dos brasileiros dadas as alternativas disponíveis.</p>
+            <p>Cabe apontar pelo menos duas especificidades do caso brasileiro que impulsionam o sucesso do janonismo. A primeira e mais óbvia é que a magnitude da adesão ao canal de WhatsApp Exército do Lula, liderado pelo deputado André Janones, bem como a adesão às missões, dependeu enormemente da figura de Lula, o maior líder popular da história do país e um dos maiores do mundo, que já havia realizado três mandatos presidenciais (2003-2006, 2007-2010, 2023-2026). Outro fator é que a confluência para o janonismo só ocorreu após um resultado catastrófico no primeiro turno das eleições presidenciais, com o adversário terminando à frente, o que provocou a irrupção de energia que seria canalizada para a insurgência informacional, garantindo a vitória de Lula. Resta saber se a replicação do janonismo pode prescindir desses dois fatores e quais mutações serão necessárias em cada contexto.</p>
+            <p>Esse tipo de insurgência informacional não substitui a ocupação das ruas e dos espaços públicos por manifestantes. As duas formas de mobilização se retroalimentam positivamente. As grandes manifestações atraem mais pessoas para a militância informacional, que difunde e amplifica mediante circulação de imagens a magnitude das demonstrações. É preciso ocupar as ruas e as redes.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="hypar" aria-labelledby="hypar-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-1"></use></svg></div>
+          <div><p class="section-label">TÁTICA 01</p><h3 id="hypar-titulo">1. HYPAR O PRÓPRIO CAMPO.</h3>
+          <div class="section-body">
+            <p>Em situação de mobilização, é obrigatório curtir, repostar, salvar e compartilhar (ou seus equivalentes na plataforma em questão) todas as publicações do campo aliado, sobretudo as da figura principal. É necessário que o máximo de perfis desse campo se sigam mutuamente, produzindo uma massa de conteúdos que se amplificarão com grande magnitude. Em caso de conteúdo em vídeo, assisti-lo até o final. É preciso interagir ao máximo, despertar o interesse do algoritmo e gerar o maior engajamento possível por tempo de tela. A ideia é floodar a infosfera de conteúdo favorável, ocupar o tempo e o espaço das redes e dos usuários.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="nao-engajar" aria-labelledby="nao-engajar-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-2"></use></svg></div>
+          <div><p class="section-label">TÁTICA 02</p><h3 id="nao-engajar-titulo">2. JAMAIS ENGAJAR O CAMPO ADVERSÁRIO.</h3>
+          <div class="section-body">
+            <p>Tão ou até mesmo mais importante que hypar o próprio campo é NUNCA engajar com provocações adversárias: não responder, xingar ou debochar. Passar adiante, ignorar e bloquear. Não permita que o adversário determine sua agenda. Acompanhe os movimentos da oposição sem transformar cada provocação em uma disputa pública. NUNCA engajar com NENHUM POST do adversário. O algoritmo contabiliza apenas QUANTUM de interação. A sua interação apenas alimentará o adversário. Um post chegou ao seu feed? PASSE RÁPIDO para o algoritmo não entregar mais. Bloqueie antecipadamente perfis relevantes da oposição. Repreenda duramente os soldados que incorrerem nesses comportamentos, exigindo que apaguem posts.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="vigilia" aria-labelledby="vigilia-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-3"></use></svg></div>
+          <div><p class="section-label">TÁTICA 03</p><h3 id="vigilia-titulo">3. VIGÍLIA NAS REDES.</h3>
+          <div class="section-body">
+            <p>Acompanhar a dinâmica das hashtags, os assuntos em circulação e a cobertura da mídia tradicional. Manter uma rotina de rondas pelos territórios digitais, diagnosticar os fronts sob ameaça (em quais plataformas estão ganhando espaço) e avaliar continuamente os resultados das ações.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="centralizacao" aria-labelledby="centralizacao-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-4"></use></svg></div>
+          <div><p class="section-label">TÁTICA 04</p><h3 id="centralizacao-titulo">4. CENTRALIZAÇÃO DAS POSTAGENS.</h3>
+          <div class="section-body">
+            <p>Manter consistência nas hashtags utilizadas e nas imagens e vídeos postados, evitando dispersar as iniciativas. Acompanhar sua circulação em determinado dia e horário, todos podem convergir sobre um mesmo conteúdo, cuja disseminação assume a forma de onda. Uma palavra de ordem precisa de continuidade, reconhecimento e direção comum. A dispersão excessiva fragmenta a atenção e enfraquece a identidade das iniciativas. Na eleição brasileira de 2026, um exemplo foi a convocação de Janones para que apoiadores publicassem, simultaneamente (exatamente no mesmo horário), fotografias com a camisa da Seleção Brasileira e fazendo o L com as mãos. O gesto comum articulou a presença de milhares de perfis em uma manifestação coletiva e se associou à disputa pelos símbolos nacionais. DEVEMOS PASSAR LENIN A LIMPO: extrair de sua experiência revolucionária o que permanece vivo para o nosso tempo: a articulação entre propaganda, agitação e organização. As hashtags e os conteúdos compartilhados podem funcionar como palavras de ordem e pontos de convergência, desde que integrados a um vetor político reconhecível, seja ele tático e circunstancial (ad hoc), seja estratégico e de longo prazo.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="influencia" aria-labelledby="influencia-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-5"></use></svg></div>
+          <div><p class="section-label">TÁTICA 05</p><h3 id="influencia-titulo">5. INFLUÊNCIA DO ROSTO.</h3>
+          <div class="section-body">
+            <p>Os franceses Deleuze e Guattari já sabiam: O Rosto é uma máquina. No Brasil, o janonismo produziu a revolução dos low profiles: pessoas comuns passaram a expor suas posições políticas nas contas pessoais, com banners, fotografias e marcas-d&#x27;água políticas. A política ganhou rostos conhecidos para além das figuras públicas e ativistas. Um rosto conhecido transforma a mensagem em posição assumida, afeta seu entorno e politiza relações cotidianas. Não subestime a potência de aparecer.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="fura-bolha" aria-labelledby="fura-bolha-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-6"></use></svg></div>
+          <div><p class="section-label">TÁTICA 06</p><h3 id="fura-bolha-titulo">6. CONTEÚDO FURA-BOLHA.</h3>
+          <div class="section-body">
+            <p>Aprenda a reconhecer e produzir conteúdos capazes de circular fora dos circuitos politizados: músicas, montagens, humor, cultura pop, esporte e entretenimento. A operação atua tanto na curadoria — identificar materiais com discurso favorável aos aliados e potencial de atravessar bolhas (cenas de filme, músicas, posts de artistas) — quanto na produção deliberada de conteúdos cuja força de circulação precede sua leitura política. Janones compreendeu a importância desse registro. O conteúdo fura-bolha não é apenas aquele que não tem aparência de propaganda: ele pode ser propaganda e, ainda assim, furar a bolha. Isso depende de seus pontos de contato e de sua possibilidade de passagem e incitação do desejo de compartilhar. “Desafios” e “brincadeiras”, por exemplo, podem se enquadrar nessa categoria.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="producao-ia" aria-labelledby="producao-ia-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-7"></use></svg></div>
+          <div><p class="section-label">TÁTICA 07</p><h3 id="producao-ia-titulo">7. PRODUÇÃO MASSIVA E ESTÉTICA DE IA.</h3>
+          <div class="section-body">
+            <p>As ferramentas de inteligência artificial estão disponíveis para qualquer um com acesso à internet e disseminaram o acesso à produção rápida de imagens. É necessário floodar as redes com materiais políticos em imagem estática ou vídeo, em todas as estéticas possíveis (do apelo popular do kitsch, à sofisticação artística ou ao shitpost). Paródias de fotos ou vídeos famosos, como cenas de filme, reality shows, memes ou videoclipes, com os personagens substituídos por figuras políticas a serem promovidas ou depreciadas têm forte potencial de engajamento.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="espelhamento" aria-labelledby="espelhamento-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-8"></use></svg></div>
+          <div><p class="section-label">TÁTICA 08</p><h3 id="espelhamento-titulo">8. ESPELHAMENTO.</h3>
+          <div class="section-body">
+            <p>O espelhamento pode ser usado de diferentes modos. A própria estrutura de comunicação do janonismo espelha a adversária, mas de forma mais organizada e com soldados treinados (a extrema direita conta muito com o favorecimento das plataformas e compra de números de visualizações impulsionando o “engajamento espontâneo”).</p>
+            <p>As formas e padrões de memes, imagens e vídeos do adversário são apropriados, invertendo seus referentes. Por exemplo, edições de vídeo de mogging exaltando a figura central do campo aliado. Também se pode espelhar o sentido de uma mensagem. Por exemplo, um post com o dito “Nós vamos aposentar o Lula” não é respondido com comentários em defesa do presidente, mas com um outro post dizendo “Nós vamos aposentar os Bolsonaros”, que será impulsionado com ações coordenadas de engajamento e sobreporá o primeiro. Uma narrativa fake pode ser espelhada com uma contranarrativa que produza inversões de modo a ridicularizá-la. Na disputa entre hashtags o espelhamento se torna especialmente visível. Uma tag adversária que esteja ganhando tração pode ser espelhada com uma tag favorável que use alguns termos em comum com a primeira. Quando supera a popularidade da adversária, a tag favorável a suprime. O espelhamento disputa simultaneamente o sentido (flooda a infosfera com uma mensagem) e a atenção (inclusive do próprio campo adversário, que produzirá o engajamento). O mais importante é ter poderio suficiente para que o espelhamento se sobreponha. É uma questão de força.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="signos" aria-labelledby="signos-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-9"></use></svg></div>
+          <div><p class="section-label">TÁTICA 09</p><h3 id="signos-titulo">9. APROPRIAÇÃO E DESESTABILIZAÇÃO DE SIGNOS.</h3>
+          <div class="section-body">
+            <p>A insurgência deve intervir sobre as significações impostas pelo campo adversário, que coloniza símbolos, signos e a própria linguagem. Floodar a infosfera com um signo deslocado do sentido usual é o suficiente para explorar sua ambiguidade, de modo que o adversário já não possa mais contar com a estabilidade semântica. Este é um desdobramento específico do item anterior. No Brasil, a extrema direita havia se apropriado de símbolos nacionais como a icônica camisa da Seleção Brasileira de Futebol e a Bandeira Nacional. Uma das ações do janonismo consistiu em retomar esses símbolos.</p>
+            <p>Alguns aspectos devem ser destacados. 1. Isso efetuou uma quebra de tabu no campo pró-Lula, que havia desenvolvido aversão tribal a esses símbolos; 2. A ação apelou instrumentalmente para a carga afetiva que a temática nacionalista ainda é capaz de ativar entre os brasileiros, sobretudo numa eleição que se passou claramente sob intervenção estrangeira e ameaças à soberania nacional; 3. Gerou-se um senso de paranoia nos meios da extrema direita, acostumados a identificar automaticamente alguém vestido com verde e amarelo como aliado; 4. Produz um efeito de desmoralização do grupo adversário, que é inundado com imagens do inimigo ostentando os símbolos que julgava seus. Evidente que essa instrumentalização de símbolos e do nacionalismo deve ser adaptada ao contexto de cada país.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="hipersticao" aria-labelledby="hipersticao-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-10"></use></svg></div>
+          <div><p class="section-label">TÁTICA 10</p><h3 id="hipersticao-titulo">10. HIPERSTIÇÃO MEMÉTICA.</h3>
+          <div class="section-body">
+            <p>Disputar o imaginário é intervir na produção do real. Apropriar-se dos memes, produzir caricaturas e reconfigurar os símbolos coletivos permite introduzir narrativas que, ao circular, abrem possibilidades de ação. Na eleição brasileira de 2026, André Janones antecipava a vitória de Lula antes mesmo do início do segundo turno.</p>
+            <p>Repetia o prognóstico no chamado pretérito profético, enunciando a vitória futura de LULA como acontecimento consumado. A recorrência desse gesto discursivo contribuiu para consolidar sua imagem de “profeta” entre os apoiadores. Não se tratava de um uso ingênuo da linguagem, já que a antecipação da vitória se mostrou, só-depois, como produtora uma figura de enunciação, que introduzia o futuro desejado na percepção do presente. FAKE IT TILL YOU MAKE IT?</p>
+            <p>Conferir presença atual ao que se pretende realizar. A operação hipersticional exige compreender essa retroalimentação entre imaginário e real.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="anything-goes" aria-labelledby="anything-goes-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-11"></use></svg></div>
+          <div><p class="section-label">TÁTICA 11</p><h3 id="anything-goes-titulo">11. ANYTHING GOES.</h3>
+          <div class="section-body">
+            <p>Quaisquer pautas e métodos valem, desde que sejam favoráveis à causa defendida e tenham potencial de engajamento. Nas eleições brasileiras, foram utilizadas coisas tão distintas como a defesa de símbolos religiosos populares sob ataque do adversário, difusão de iniciativas do governo diretamente favoráveis aos direitos de trabalhadores formais e informais, uso de nudes e thirst traps, shitpostagem, adesão de artistas e influencers de diferentes estratos, lançamento de músicas de gêneros distintos etc. etc. etc.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="fora-das-redes" aria-labelledby="fora-das-redes-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-12"></use></svg></div>
+          <div><p class="section-label">TÁTICA 12</p><h3 id="fora-das-redes-titulo">12. MOBILIZAÇÃO FORA DAS REDES.</h3>
+          <div class="section-body">
+            <p>A mobilização digital deve converter-se, sempre que possível, em intervenção nos espaços físicos, que, por sua vez, retroalimentará a circulação digital. Panfletagens, distribuição de flyers, cartazes, colagem de materiais com QR codes, passeatas, caminhadas, manifestações de rua, panelaços, atos públicos, mobilizações sincronizadas, paralisações e intervenções visuais compõem um repertório amplo de ação. A disseminação deve ser pensada em continuidade com os demais tópicos deste manual. Os QR codes conectam a presença física à circulação digital, conduzindo diretamente a vídeos, montagens, publicações e páginas de campanha. Outra possibilidade consiste em despertar a curiosidade por meio de perguntas curtas, capazes de levar as pessoas a procurar determinado assunto nos mecanismos de busca. Na eleição brasileira de 2026, Janones explorou esse registro com chamadas como “QUEM É MARIANA?”. A pergunta funciona como dispositivo de passagem entre a rua, a curiosidade e a busca por informação. O importante é que o conteúdo encontrado corresponda ao interesse despertado.</p>
+            <p>DEVEMOS ERRADICAR o espírito missionário e catequético que herdamos de certas tradições do marxismo: a fantasia de que a tarefa política consiste em “transmitir a consciência” caiu. O próprio termo conscientização já não serve para mais nada. O QUE INTERESSA VERDADEIRAMENTE É O CONTÁGIO.</p>
+          </div></div>
+        </section>
+        <section class="manual-section" id="posfacio" aria-labelledby="posfacio-titulo">
+          <div class="section-icon" aria-hidden="true"><svg><use href="#icon-posfacio"></use></svg></div>
+          <div><p class="section-label">ENCERRAMENTO</p><h3 id="posfacio-titulo">POSFÁCIO:</h3>
+          <div class="section-body">
+            <p>P.S</p>
+            <p>Este livro é um MANUAL: pragmático e panfletário.</p>
+            <p>Aos interessados na elaboração conceitual que o sustenta, aguardem.</p>
+            <p>A teoria bruta será disseminada em breve sob os mesmos pseudônimos:</p>
+            <p>@YACOBVS &amp; @DENGXIAOPIX</p>
+            <p>SEM COPYRIGHTS: DISSEMINEM!</p>
+          </div></div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div><p class="footer-label">UM MANUAL PARA CIRCULAR</p><h2>Minimanual de<br><em>Insurgência Informacional</em><br><span>(ou janonismo)</span></h2><p class="footer-authors">@YACOBVS &amp; @DENGXIAOPIX</p></div>
+      <div class="footer-info"><p class="footer-label">LEIA. COMPARTILHE. DISSEMINE.</p><p>Sem copyright. A disseminação do manual é livre.</p><a href="manual.pdf" download>↓ &nbsp; Baixar o manual completo</a><p class="visit-count" id="visit-count" aria-live="polite">Acessos neste navegador: indisponível</p></div>
+    </div>
+    <div class="footer-bottom"><span>MINIMANUAL DE INSURGÊNCIA INFORMACIONAL</span><a href="#inicio">VOLTAR AO INÍCIO ↑</a></div>
+  </footer>
+</body>
+</html>
