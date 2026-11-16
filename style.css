@@ -73,6 +73,7 @@ h1 span{display:block;margin-top:15px;font-size:.42em;line-height:1.2;letter-spa
 .section-body{max-width:760px;font-size:15px;line-height:1.9;color:#47433e}
 .section-body p{margin:0 0 1.15em}
 .section-body p:last-child{margin-bottom:0}
+.posfacio-selo{width:180px;height:auto;max-width:100%;margin-top:24px}
 .site-footer{background:var(--ink);color:var(--cream)}
 .footer-main{max-width:1440px;margin:auto;padding:75px 6% 70px;display:grid;grid-template-columns:1fr 300px;gap:60px}
 .footer-label{color:#df786b;margin-bottom:22px}

@@ -9,7 +9,7 @@ Página web para leitura do manual de **@YACOBVS & @DENGXIAOPIX**, com navegaç�
 - `script.js`: menu móvel, destaque do índice e contador local.
 - `manual.pdf`: documento disponibilizado para download.
 - `favicon.png`: logomarca e ícone da página.
-- `seloFuraBolha.png`: imagem adicional; não é utilizada pela página atual.
+- `seloFuraBolha.png`: imagem exibida ao final do posfácio.
 
 ## Como usar
 
@@ -24,7 +24,7 @@ O contador no rodapé registra carregamentos da página usando o armazenamento l
 
 ## Publicação
 
-Envie `index.html`, `style.css`, `script.js`, `manual.pdf` e `favicon.png` para a mesma pasta de uma hospedagem de sites estáticos. Abra o endereço publicado e confira a navegação, a imagem e o download do PDF. Não é necessário servidor de aplicação ou banco de dados.
+Envie `index.html`, `style.css`, `script.js`, `manual.pdf`, `favicon.png` e `seloFuraBolha.png` para a mesma pasta de uma hospedagem de sites estáticos. Abra o endereço publicado e confira a navegação, as imagens e o download do PDF. Não é necessário servidor de aplicação ou banco de dados.
 
 ## Manutenção
 
