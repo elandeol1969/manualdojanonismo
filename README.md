@@ -26,6 +26,8 @@ O contador no rodapé registra carregamentos da página usando o armazenamento l
 
 Envie `index.html`, `style.css`, `script.js`, `manual.pdf`, `favicon.png` e `seloFuraBolha.png` para a mesma pasta de uma hospedagem de sites estáticos. Abra o endereço publicado e confira a navegação, as imagens e o download do PDF. Não é necessário servidor de aplicação ou banco de dados.
 
+O endereço canônico definido no HTML é `https://janonismo.com.br/`. Após publicar, verifique o domínio no Google Search Console e solicite a indexação da página. A indexação e a posição nos resultados não são garantidas.
+
 ## Manutenção
 
 Edite o texto e a estrutura em `index.html`, a aparência em `style.css` e as interações em `script.js`. Ao alterar seções ou seus identificadores, atualize os links dos dois índices no HTML. Se substituir o PDF ou a logomarca, mantenha os nomes dos arquivos ou atualize as referências correspondentes.
